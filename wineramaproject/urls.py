@@ -19,4 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^reviews/', include('reviews.urls', namespace="reviews")),
     url(r'^admin/', admin.site.urls),
+    url('^accounts/', include('django.contrib.auth.urls'))
 ]
