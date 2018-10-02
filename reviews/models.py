@@ -8,9 +8,8 @@ class Wine(models.Model):
         all_ratings = map(lambda x: x.rating, self.review_set.all())
         return np.mean(all_ratings)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.name
-
 
 class Review(models.Model):
     RATING_CHOICES = (
