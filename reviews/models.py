@@ -1,10 +1,10 @@
 from django.db import models
-import numpy as np
 from django.contrib.auth.models import User
+import numpy as np
+
 
 class Wine(models.Model):
-    name=models.CharField(max_length=200)
-
+    name = models.CharField(max_length=200)
 
     def average_rating(self):
         all_ratings = list(map(lambda x: x.rating, self.review_set.all()))
@@ -35,3 +35,6 @@ class Cluster(models.Model):
 
     def get_members(self):
         return "\n".join([u.username for u in self.users.all()])
+
+    def __unicode__(self):
+        return self.name

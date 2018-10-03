@@ -55,6 +55,9 @@ def add_review(request, wine_id):
 
     return render(request, 'reviews/wine_detail.html', {'wine': wine, 'form': form})
 
+
+
+
 def user_review_list(request, username=None):
     if not username:
         username = request.user.username
@@ -95,8 +98,7 @@ def user_recommendation_list(request):
 
     # then get a wine list including the previous IDs, order by rating
     wine_list = sorted(
-        list(Wine.objects.filter(id__in=other_users_reviews_wine_ids)),
-        key=lambda x: x.average_rating,
+        list(Wine.objects.filter(id__in=other_users_reviews_wine_ids)),key=lambda x: x.average_rating(),
         reverse=True
     )
 
@@ -104,4 +106,7 @@ def user_recommendation_list(request):
         request,
         'reviews/user_recommendation_list.html',
         {'username': request.user.username, 'wine_list': wine_list}
+
+
+
     )

@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3d4eab-d219-4aa1-bddb-360afe537585" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/reviews/suggestions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reviews/templates/reviews/user_recommendation_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/load_reviews.py" beforeDir="false" afterPath="$PROJECT_DIR$/load_reviews.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reviews/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews/templates/reviews/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/templates/reviews/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/suggestions.py" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/suggestions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reviews/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +42,7 @@
         <counts>
           <entry key="env" value="37" />
           <entry key="html" value="91" />
-          <entry key="py" value="3836" />
+          <entry key="py" value="3856" />
           <entry key="txt" value="23" />
         </counts>
       </usages-collector>
@@ -57,7 +50,7 @@
         <counts>
           <entry key="HTML" value="91" />
           <entry key="PLAIN_TEXT" value="60" />
-          <entry key="Python" value="3836" />
+          <entry key="Python" value="3856" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -68,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reviews/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="56">
+              <caret line="101" column="39" lean-forward="true" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -77,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reviews/suggestions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="97">
+              <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -89,11 +82,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reviews/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="43" />
+            <state relative-caret-position="-10">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/reviews.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="276">
+              <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -169,6 +165,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>nam</find>
+      <find>&lt;</find>
+      <find>map</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -197,7 +200,6 @@
         <option value="$PROJECT_DIR$/wineramaproject/settings.py" />
         <option value="$PROJECT_DIR$/reviews/templates/email/wineemail.txt" />
         <option value="$PROJECT_DIR$/reviews/email.py" />
-        <option value="$PROJECT_DIR$/data/reviews.csv" />
         <option value="$PROJECT_DIR$/data/users.csv" />
         <option value="$PROJECT_DIR$/data/wine.csv" />
         <option value="$PROJECT_DIR$/load_wines.py" />
@@ -207,16 +209,17 @@
         <option value="$PROJECT_DIR$/reviews/urls.py" />
         <option value="$PROJECT_DIR$/reviews/templates/reviews/base.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/reviews/models.py" />
         <option value="$PROJECT_DIR$/reviews/admin.py" />
+        <option value="$PROJECT_DIR$/data/reviews.csv" />
         <option value="$PROJECT_DIR$/reviews/views.py" />
         <option value="$PROJECT_DIR$/reviews/suggestions.py" />
+        <option value="$PROJECT_DIR$/reviews/models.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="116" />
-    <option name="y" value="67" />
+    <option name="x" value="279" />
+    <option name="y" value="62" />
     <option name="width" value="1116" />
     <option name="height" value="566" />
   </component>
@@ -243,6 +246,16 @@
               <item name="winerecommender" type="b2602c69:ProjectViewProjectNode" />
               <item name="winerecommender" type="462c0819:PsiDirectoryNode" />
               <item name="reviews" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="winerecommender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="winerecommender" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="winerecommender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="winerecommender" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -295,14 +308,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="116" y="67" width="944" height="566" extended-state="0" />
+    <frame x="434" y="64" width="1116" height="566" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24702059" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20821919" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" weight="0.3283582" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.592827" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="1.0" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
@@ -525,13 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/reviews.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/load_reviews.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -559,29 +565,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reviews/models.py">
+    <entry file="file://$PROJECT_DIR$/data/reviews.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="43" />
+        <state relative-caret-position="276">
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reviews/suggestions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reviews/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="56">
+          <caret line="101" column="39" lean-forward="true" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reviews/suggestions.py">
+    <entry file="file://$PROJECT_DIR$/reviews/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="-10">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
